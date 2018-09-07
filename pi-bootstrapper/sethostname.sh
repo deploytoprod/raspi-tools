@@ -15,7 +15,6 @@ ff02::2    ip6-allrouters
 127.0.0.1  ${snr}
 EOL
 
-
 sudo hostnamectl set-hostname $snr
 
 sudo systemctl restart avahi-daemon

@@ -1,8 +1,7 @@
 #!/bin/sh
 # Author: Rafael Lopes
-# About: For a factory-like experience, this prepares the OS for a first run.
+# About: For a factory-like experience, this prepares the OS...
 
-[ -f /boot/firstrun ] && rm /boot/firstrun 
 /home/pi/raspi-tools/pi-bootstrapper/sethostname.sh
 > /home/pi/.bash_history
 [ -f /home/pi/raspi-tools/ip-reporter/wifiip.txt ] && rm /home/pi/raspi-tools/ip-reporter/wifiip.txt

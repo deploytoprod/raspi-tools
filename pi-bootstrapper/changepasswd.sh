@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: Rafael Lopes
-# Description: Changes the password for the user 'raspberry' to the last 7 characters of the unit's serial number
+# Description: Changes the password for the user 'raspberry' to the last 5 characters of the unit's serial number
 
 # Note: I decided not to use this script because changing the password to the serial
 # number for all students would be the same as not changing it, because if someone knows

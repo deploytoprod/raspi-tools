@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: Rafael Lopes
-# Description: This script sets the raspberry pi hostname as the last 7 characters of the unit's serial number
+# Description: This script sets the raspberry pi hostname as the last 5 characters of the unit's serial number
 
 sn=$(cat /proc/cpuinfo | grep Serial | cut -d ' ' -f 2)
 snr="${sn: -5}"

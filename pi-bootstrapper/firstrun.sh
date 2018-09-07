@@ -1,6 +1,6 @@
 #!/bin/sh
 # Author: Rafael Lopes
-# About: For uniform student experience, this prepares the OS for a first run.
+# About: For a factory-like experience, this prepares the OS for a first run.
 
 [ -f /boot/firstrun ] && rm /boot/firstrun 
 /home/pi/raspi-tools/pi-bootstrapper/sethostname.sh

@@ -6,7 +6,6 @@ sn=$(cat /proc/cpuinfo | grep Serial | cut -d ' ' -f 2)
 snr="${sn: -5}"
 wifiip=$(ip addr | grep inet | grep wlan0 | awk -F" " '{print $2}'| sed -e 's/\/.*$//')
 [ -f $BASEDIR/wifiip.txt ] && previousip=$(cat $BASEDIR/wifiip.txt) || previousip=""
-#previousip=$(cat $BASEDIR/wifiip.txt)
 
 date
 
